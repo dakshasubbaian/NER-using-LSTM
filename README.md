@@ -1,7 +1,7 @@
 # Named Entity Recognition
 
 
-## AIM
+## AIM:
 To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
@@ -39,7 +39,7 @@ Train the model using the training data.
 ### STEP 7
 Evaluate the model performance on test data.
 
-## PROGRAM
+## PROGRAM:
 ### Name: DAKSHA SUBBAIAN
 ### Register Number: 212223230036
 
@@ -97,17 +97,19 @@ def train_model(model,train_loader,test_loader,loss_fn,optimixer,epochs=10):
 
 ```
 
-## OUTPUT
+## OUTPUT:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![image](https://github.com/user-attachments/assets/3cbc7c61-dc58-4d1c-8085-5ce06d84bd66)
+<img width="753" height="631" alt="image" src="https://github.com/user-attachments/assets/630c272e-dcad-43e3-a9b2-6a77a0a20a28" />
+
 
 
 ### Sample Text Prediction
-![image](https://github.com/user-attachments/assets/098ed610-93f4-44fe-b8df-8f1e484145b7)
+<img width="399" height="515" alt="image" src="https://github.com/user-attachments/assets/92312eaa-c41f-4207-b699-a0230f75ae93" />
 
 
-## RESULT
+
+## RESULT:
 
 The BiLSTM NER model achieved good accuracy in identifying entities like persons, locations, and organizations. It showed strong performance on frequent tags, with scope for improvement on rarer ones.
